@@ -1,0 +1,47 @@
+.fotoabajo {
+    position: relative;
+    top: 1.5rem;
+    z-index: 10;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'Potta One', cursive;
+}
+
+
+.videoprincipal {
+    width: 100vw;
+
+}
+
+.navegador {
+    display: flex;
+    list-style: none;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    margin: 0 auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    z-index: 10;
+}
+
+a{
+    color: white;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:active{
+    color:white;
+}
+
+a:hover{
+    color:white;
+}
